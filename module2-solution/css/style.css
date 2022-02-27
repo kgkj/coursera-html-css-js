@@ -131,6 +131,7 @@ p {
   }
   .col-md-10 {
     width: 87.33%;
+    /* adjusted to include 2 margin widths */
   }
   .col-md-11 {
     width: 91.66%;
