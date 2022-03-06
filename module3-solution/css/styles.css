@@ -1,0 +1,78 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #808080;
+  border-radius: 0;
+  border: 0;
+}
+navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: left;
+  line-height: .75;
+  float: left;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  clear: both;
+}
+#nav-list a {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #fff;
+}
+/*#nav-list a span {
+  font-size: 1.8em;
+}*/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* BODY */
+.jumbotron { /* body */
+  background-color: #fff;
+  margin: 0;
+}
+.jumbotron h2 { /* Menu name */
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+#items {
+  background-color: #808080;
+  margin: 0;
+}
+#items h4 { /* Item names */
+  font-weight: bold;
+ }
+
+ .col-xs-12 {
+  margin: auto;
+ }
+/* END BODY */
+
